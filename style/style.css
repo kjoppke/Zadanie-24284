@@ -1,48 +1,46 @@
-@media {
-    min-width: 992px;
-}
-
-.main {
+* {
+    text-transform: uppercase;
+    justify-content: center;
+    display: flex;
     color: white;
     font-size: large;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    height: 300px;
-    text-transform: uppercase;
-    text-align: center;
 }
 
-.one {
-    background-color: rgb(221, 36, 36);
-    height: 50px;
+.red {
+    background-color: red;
+    order: 1;
+    height: 40px;
+    flex-basis: 100%;
     justify-content: center;
-    display: flex;
     align-items: center;
 }
 
-.area1 {
-    background-color: rgb(24, 152, 211);
+.blue {
+    background-color: deepskyblue;
+    order: 3;
     flex-basis: 50%;
+    height: 300px;
 }
 
-.area2 {
-    background-color: palevioletred;
+.green {
+    background-color: forestgreen;
+    order: 2;
     flex-basis: 25%;
+    height: 300px;
 }
 
-.area3 {
-    background-color: green;
-    flex-basis: 25%;
-}
-
-.footer {
-    background-color: rgb(102, 62, 197);
-    height: 50px;
-    display: flex;
-    justify-content: center;
+.violet {
+    background-color: rgb(179, 24, 101);
+    order: 5;
+    height: 8vh;
+    flex-basis: 100%;
     align-items: center;
+}
+
+.pink {
+    background-color: hotpink;
+    order: 4;
+    flex-basis: 25%;
+    height: 300px;
 }
