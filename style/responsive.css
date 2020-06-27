@@ -1,69 +1,52 @@
 @media all and (min-width: 768px) and (max-width: 992px) {
     .red {
-        background-color: red;
         order: 1;
-        height: 40px;
         flex-basis: 100%;
         justify-content: center;
         align-items: center;
     }
     .blue {
-        background-color: deepskyblue;
         order: 2;
         flex-basis: 75%;
-        height: 300px;
     }
     .green {
-        background-color: forestgreen;
         order: 4;
         flex-basis: 100%;
-        height: 300px;
     }
     .violet {
-        background-color: rgb(179, 24, 101);
         order: 5;
-        height: 8vh;
+        /* height: 8vh; */
         flex-basis: 100%;
         align-items: center;
     }
     .pink {
-        background-color: hotpink;
         order: 3;
         flex-basis: 25%;
-        height: 300px;
     }
-
+}
 @media all and (max-width: 768px) {
     .red {
-            background-color: red;
             order: 1;
-            height: 40px;
             flex-basis: 100%;
             justify-content: center;
             align-items: center;
         }
     .blue {
-            background-color: deepskyblue;
             order: 2;
             flex-basis: 100%;
-            height: 300px;
         }
     .green {
-            background-color: forestgreen;
             order: 3;
             flex-basis: 100%;
-            height: 300px;
         }
     .violet {
-            background-color: rgb(179, 24, 101);
             order: 5;
-            height: 8vh;
+            /* height: 8vh; */
             flex-basis: 100%;
             align-items: center;
         }
     .pink {
-            background-color: hotpink;
             order: 4;
             flex-basis: 100%;
-            height: 300px;
         }
+    }

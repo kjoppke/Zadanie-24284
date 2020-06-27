@@ -10,7 +10,7 @@
 .red {
     background-color: red;
     order: 1;
-    height: 40px;
+    height: 9vh;
     flex-basis: 100%;
     justify-content: center;
     align-items: center;
@@ -20,14 +20,14 @@
     background-color: deepskyblue;
     order: 3;
     flex-basis: 50%;
-    height: 300px;
+    height: 80vh;
 }
 
 .green {
     background-color: forestgreen;
     order: 2;
     flex-basis: 25%;
-    height: 300px;
+    height: 80vh;
 }
 
 .violet {
@@ -42,5 +42,5 @@
     background-color: hotpink;
     order: 4;
     flex-basis: 25%;
-    height: 300px;
+    height: 80vh;
 }
